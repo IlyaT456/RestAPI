@@ -7,10 +7,7 @@ import data.User;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import spec.LoginSpec;
-
 import static io.qameta.allure.Allure.step;
-import static io.restassured.RestAssured.given;
-import static io.restassured.RestAssured.responseSpecification;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.hamcrest.Matchers.*;
 import static spec.LoginSpec.loginResponseSpec;
